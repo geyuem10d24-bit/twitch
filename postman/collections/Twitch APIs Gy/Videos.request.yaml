@@ -1,0 +1,11 @@
+$kind: http-request
+url: https://api.twitch.tv/helix/videos?game_id=21779&first=2
+method: GET
+headers:
+  Authorization: Bearer {{twitch_access_token}}
+  Client-Id: "{{twitch_client_id}}"
+queryParams:
+  game_id: "21779"
+  first: "2"
+settings: {}
+order: 4000

@@ -1,0 +1,7 @@
+name: Twitch Local
+values:
+  - key: host
+    value: http://localhost
+  - key: port
+    value: "8080"
+color: 240

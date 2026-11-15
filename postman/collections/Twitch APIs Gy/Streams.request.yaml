@@ -1,0 +1,17 @@
+$kind: http-request
+url: https://api.twitch.tv/helix/streams/?game_id=18122&game_id=21779&game_id=33214&first=10
+method: GET
+headers:
+  Authorization: Bearer {{twitch_access_token}}
+  Client-Id: "{{twitch_client_id}}"
+queryParams:
+  - key: game_id
+    value: "18122"
+  - key: game_id
+    value: "21779"
+  - key: game_id
+    value: "33214"
+  - key: first
+    value: "10"
+settings: {}
+order: 6000

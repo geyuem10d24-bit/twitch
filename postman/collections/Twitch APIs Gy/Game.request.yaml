@@ -1,0 +1,10 @@
+$kind: http-request
+url: https://api.twitch.tv/helix/games?name=fortnite
+method: GET
+headers:
+  Authorization: Bearer {{twitch_access_token}}
+  Client-Id: "{{twitch_client_id}}"
+queryParams:
+  name: fortnite
+settings: {}
+order: 2000

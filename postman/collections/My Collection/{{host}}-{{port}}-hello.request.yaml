@@ -1,0 +1,7 @@
+$kind: http-request
+name: "{{host}}:{{port}}/hello"
+url: "{{host}}:{{port}}/hello?name=Shawn"
+method: GET
+queryParams:
+  name: Shawn
+order: 3000

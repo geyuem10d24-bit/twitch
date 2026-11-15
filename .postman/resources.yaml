@@ -1,0 +1,12 @@
+workspace:
+  id: 84519743-c963-4511-8768-34e7edcae0cc
+cloudResources:
+  collections:
+    ../postman/collections/Twitch APIs Gy: 60200781-24a1cf89-953a-431b-8871-2ad174feedef
+    ../postman/collections/Twitch APIs: 60200781-d1fba1d3-0fa2-4979-940f-1fd4e48fcb85
+    ../postman/collections/My Collection: 60200781-0c831953-fdc5-48e8-b614-2c6a655f7b38
+  environments:
+    ../postman/environments/Twitch Local.environment.yaml: 60200781-69fe4441-c1ff-4d04-8909-520747f4c3ce
+    ../postman/environments/Twitch APIs.environment.yaml: 60200781-cb56dbd0-f3ca-4886-9162-eefecafa7fa6
+  globals:
+    ../postman/globals/workspace.globals.yaml: 4f63fbd8-a4a3-49cc-8400-cb5db53bab42

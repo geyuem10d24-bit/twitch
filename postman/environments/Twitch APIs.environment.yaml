@@ -1,0 +1,9 @@
+name: Twitch APIs
+values:
+  - key: twitch_access_token
+    value: ''
+  - key: twitch_client_id
+    value: ''
+  - key: twitch_client_secret
+    value: ''
+color: 120
