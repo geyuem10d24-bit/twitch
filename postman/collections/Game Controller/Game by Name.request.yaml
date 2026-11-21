@@ -1,0 +1,6 @@
+$kind: http-request
+url: "{{host}}:{{port}}/game?game_name=Minecraft"
+method: GET
+queryParams:
+  game_name: Minecraft
+order: 2000

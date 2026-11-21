@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}:{{port}}/game"
+method: GET
+order: 1000

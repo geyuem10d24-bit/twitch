@@ -1,10 +1,15 @@
 workspace:
   id: 84519743-c963-4511-8768-34e7edcae0cc
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
 cloudResources:
   collections:
     ../postman/collections/Twitch APIs Gy: 60200781-24a1cf89-953a-431b-8871-2ad174feedef
     ../postman/collections/Twitch APIs: 60200781-d1fba1d3-0fa2-4979-940f-1fd4e48fcb85
     ../postman/collections/My Collection: 60200781-0c831953-fdc5-48e8-b614-2c6a655f7b38
+    ../postman/collections/Game Controller: 6b1fb169-010a-461c-b4fa-2f036527c1c2
+    ../postman/collections/Item Controller: e51da24a-cf25-460d-915a-09f5c5bb84e6
   environments:
     ../postman/environments/Twitch Local.environment.yaml: 60200781-69fe4441-c1ff-4d04-8909-520747f4c3ce
     ../postman/environments/Twitch APIs.environment.yaml: 60200781-cb56dbd0-f3ca-4886-9162-eefecafa7fa6
