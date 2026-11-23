@@ -3,7 +3,6 @@ DROP TABLE IF EXISTS authorities;
 DROP TABLE IF EXISTS items;
 DROP TABLE IF EXISTS users;
 
-
 CREATE TABLE users
 (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -13,7 +12,6 @@ CREATE TABLE users
     password VARCHAR(100) NOT NULL,
     enabled  TINYINT      NOT NULL DEFAULT 1
 );
-
 
 CREATE TABLE items
 (
@@ -27,7 +25,6 @@ CREATE TABLE items
     type VARCHAR(255)
 );
 
-
 CREATE TABLE favorite_records
 (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -38,7 +35,6 @@ CREATE TABLE favorite_records
     FOREIGN KEY (item_id) REFERENCES items(id) ON DELETE CASCADE,
     UNIQUE KEY unique_item_and_user_combo (item_id, user_id)
 );
-
 
 CREATE TABLE authorities
 (
